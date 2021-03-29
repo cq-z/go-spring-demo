@@ -27,7 +27,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	pb "github.com/cq-z/go-spring-demo/demo/helloworld"
+	pb "github.com/cq-z/go-spring-demo/demo/admin/pkg/helloworld"
 	"github.com/go-spring/spring-boot"
 	"github.com/go-spring/spring-web"
 	_ "github.com/go-spring/starter-gin"

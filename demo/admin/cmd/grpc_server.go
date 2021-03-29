@@ -68,7 +68,7 @@ func init() {
 }
 
 type GreeterServer struct {
-	AppName string `value:"${spring.application.name}"`
+	AppName string `value:"${spring.application.name:=test}"`
 }
 
 func (s *GreeterServer) SayHello(ctx context.Context, in *pb.HelloRequest) (*pb.HelloReply, error) {
